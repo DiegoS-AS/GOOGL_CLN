@@ -59,35 +59,35 @@ body {
 
 }
 .input-container {
-    /* display: flex;
+    display: flex;
     align-items: center;
     background-color: #fff;
     border-radius: 25px;
-    padding: 10px; */
+    padding: 10px;
 }
   
 .input-container svg {
-    /* margin-right: 5px; */
+    margin-right: 5px;
 }
   
 .input-container input, .input-container button {
-    /* border: none;
-    background: none; */
+    border: none;
+    background: none;
 }
 .search-buttons{
-    /* display: flex;
+    display: flex;
     padding: 5%;
-    text-align: center; */
+    text-align: center;
 }
 .search-buttons {
-    /* display: flex;
+    display: flex;
     width: 100%;
-    justify-content: center; */
+    justify-content: center;
     
   }
   
 .search-buttons button {
-    /* background-color: #303134;
+    background-color: #303134;
     border: 0 solid #303134;
     border-radius: 5px;
     padding: 0px 15px;
@@ -97,7 +97,7 @@ body {
     font-size: 14px;
     height: 36px;
     min-width: 54px;
-    text-align: center; */
+    text-align: center;
 
 }
 
@@ -115,7 +115,7 @@ body {
 
 .footer {
     background-color: red;
-    /* margin-top: auto; */
+    margin-top: auto;
     position: relative;
 }
 .body {

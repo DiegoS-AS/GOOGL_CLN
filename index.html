@@ -5,88 +5,32 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Google</title>
-        <!-- <link rel="stylesheet" href="style.css"> -->
-        <link rel="stylesheet" href="/styling.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="/styling.css"> -->
         <script src="script.js"></script>
     </head>
     <body>
         <div class="layout">
-            <header class="header">
-                <nav class="header__menu">
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Store</a></li>
-                    </ul>
-                    <ul>
-                        <li><a class="small-text" href="#">Gmail</a></li>
-                        <li><a class="small-text" href="#">Images</a></li>
-                        <li class="menu-background">
-                            <img class="menu-button" 
-                            src="/images/icons8-circled-menu-24.png" 
-                            alt="menu">
-                        </li>
-                        <li><img class="profile-pic"
-                            src="/images/icons8-male-user-32.png"
-                            alt="Profile picture">
-                        </li>
-                    </ul>
-                </nav>
-            </header>
+            <!-- <header class="header">
+                <nav>  
+                    <ul class="r_nav">  
+                        <li><a href="#">Gmail</a></li>  
+                        <li><a href="#">Images</a></li>  
+                        <li><a href="#"><img class="apps" src="https://thumb.ibb.co/gykLCw/grid_menu.png"</a></li>  
+                        <li class="sign_in"><a href="#">Sign in</a></li>  
+                    </ul>  
+                </nav>  
+            </header> -->
             <section class="body">
-                <div class="logo">
-                    <img class="logo__image" src="/images/googlelogo_272x92dp.png" alt="google logo">
-                    <h1 class="logo__title">Google</h1>
-                </div>
-                <div class="search-section">
-                    <div class="search-section__box">
-                        <form class="type-box">
-                            <div class="input-container">
-                                <svg fill="#000000" width="16px" height="16px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12.027 9.92L16 13.95 14 16l-4.075-3.976A6.465 6.465 0 0 1 6.5 13C2.91 13 0 10.083 0 6.5 0 2.91 2.917 0 6.5 0 10.09 0 13 2.917 13 6.5a6.463 6.463 0 0 1-.973 3.42zM1.997 6.452c0 2.48 2.014 4.5 4.5 4.5 2.48 0 4.5-2.015 4.5-4.5 0-2.48-2.015-4.5-4.5-4.5-2.48 0-4.5 2.014-4.5 4.5z" fill-rule="evenodd"/>
-                                </svg>
-                                <input type="text" class="g-search">
-                                <button class="search-voice">
-                                    <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-                                    width="16px" height="16px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-                                    <g>
-                                    <path fill="#231F20" d="M32,44c6.629,0,12-5.371,12-12V12c0-6.629-5.371-12-12-12S20,5.371,20,12v20C20,38.629,25.371,44,32,44z"/>
-                                    <path fill="#231F20" d="M52,28c-2.211,0-4,1.789-4,4c0,8.836-7.164,16-16,16s-16-7.164-16-16c0-2.211-1.789-4-4-4s-4,1.789-4,4
-                                    c0,11.887,8.656,21.73,20,23.641V60c0,2.211,1.789,4,4,4s4-1.789,4-4v-4.359C47.344,53.73,56,43.887,56,32
-                                    C56,29.789,54.211,28,52,28z"/>
-                                    </g>
-                                    </svg>
-                                </button>                            
-                                <button class="search-image">
-                                    <svg width="16px" height="16px" viewBox="0 -1 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        
-                                        <title>camera_plus [#946]</title>
-                                        <desc>Created with Sketch.</desc>
-                                        <defs>
-                                    
-                                    </defs>
-                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="Dribbble-Light-Preview" transform="translate(-218.000000, -3999.000000)" fill="#000000">
-                                                <g id="icons" transform="translate(56.000000, 160.000000)">
-                                                    <path d="M166,3855 L168,3855 L168,3857 L166,3857 L166,3859 L164,3859 L164,3857 L162,3857 L162,3855 L164,3855 L164,3853 L166,3853 L166,3855 Z M174,3854.5 C172.897,3854.5 172,3853.603 172,3852.5 C172,3851.397 172.897,3850.5 174,3850.5 C175.103,3850.5 176,3851.397 176,3852.5 C176,3853.603 175.103,3854.5 174,3854.5 L174,3854.5 Z M174,3848.5 C171.791,3848.5 170,3850.291 170,3852.5 C170,3854.709 171.791,3856.5 174,3856.5 C176.209,3856.5 178,3854.709 178,3852.5 C178,3850.291 176.209,3848.5 174,3848.5 L174,3848.5 Z M171,3843 L177,3843 L177,3841 L171,3841 L171,3843 Z M183,3843 L183,3841 L181,3841 L181,3843 L179,3843 L179,3839 L169,3839 L169,3843 L164,3843 L164,3851 L166,3851 L166,3845 L182,3845 L182,3855 L180,3855 L180,3857 L184,3857 L184,3843 L183,3843 Z" id="camera_plus-[#946]">
-                                    
-                                    </path>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </button>
-                            </div>
-                        </form>
-                        <div class="search-buttons">
-                            <button class="google-search">Google Search</button>
-                            <button class="feeling-lucky">I'm Feeling Lucky</button>
-                          </div>
-                    </div>
-                </div>
-                <div class="language">
-                    Google offered in:
-                    <a href="#">Español (Latinoamérica)</a>
-                </div>
+                <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />  
+                <!-- <img class="mic" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png" alt="" />   -->
+                <form action="#" method="#" name="searchquery">  
+                    <input type="text" name="searchfield" class="search_bar">
+                    <div class="search_buttons">  
+                        <input class="submit_buttons" type="submit" value="Google Search" name="submit">  
+                        <input class="submit_buttons" type="submit" value="I'm Feeling Lucky" name="feelinglucky"></input>  
+                    </div>  
+                </form> 
             </section>
             <footer class="footer">
                 <div class="footer__location">
